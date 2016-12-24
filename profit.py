@@ -12,6 +12,5 @@ while keep_going:
 	print "收益: %0.02f" % (principle * interest * time)
 
 	command = raw_input("计算下一个按c，否则退出")
-	print command
 	if not command == "c":
 		keep_going = False
